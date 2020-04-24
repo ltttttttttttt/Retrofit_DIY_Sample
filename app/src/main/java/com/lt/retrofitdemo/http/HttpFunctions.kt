@@ -12,7 +12,7 @@ interface HttpFunctions {
      * 获取玩安卓的json数据
      * @param cid 这个接口的参数(虽然不知道有什么用emmm)
      */
-    @GET("article/list/0/json?", isEncryption = false)
+    @GET("article/list/0/json", isEncryption = false)
     fun getJson(
         _callback: ObserverCallBack?,
         cid: String
